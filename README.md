@@ -28,6 +28,7 @@ server-side;
 - You can check the images of this project [here](https://drive.google.com/drive/folders/12vGxEvW6K3csXTYMvbnXZA-5TIuixRLd?usp=sharing)
 - It's inspired by [Rockeseat NodeJS starter course](https://skylab.rocketseat.com.br/dashboard) (_it's only pt-BR_ 🇧🇷).
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -90,7 +91,7 @@ $ npm run dev
 
 | ENDPOINT | Method | Params | URL Params | Success Response | Error Response
 |--|--|--|--|--|--|
-| /products| `GET`  |-|-|**Code:** 200 - OK<br />**Content:** <br />`{`<br /> `products:`[Products](#products) `}`|<br />**Code:** 500 - INTERNAL SERVER ERROR<br />**Content:** `{ error:  <A Message with a description of the Error> }`
+| /products| `GET`  |-|-|**Code:** 200 - OK<br />**Content:** <br />`{`<br /> `products:`[Products](#product) `}`|<br />**Code:** 500 - INTERNAL SERVER ERROR<br />**Content:** `{ error:  <A Message with a description of the Error> }`
 
 - **Get a single product.**
 
@@ -135,9 +136,11 @@ $ npm run dev
 
 ### Models
 
+### Product
+
 > *title*: Product's name.
 
-> *categories*: Categories of the Product.
+> *category*: Categories of the Product.
 
 > *description*: What the product do.
 
