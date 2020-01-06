@@ -18,7 +18,10 @@
      type: String,
      required: true,
    },
-   //armazena a data em que o produto foi criado  
+   productImageURL: {
+     type:String,
+     required: true,
+   }, 
    createdAt: {
      type: Date,
      default: Date.now,
